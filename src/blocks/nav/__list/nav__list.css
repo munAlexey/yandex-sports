@@ -1,0 +1,6 @@
+.nav__list {
+  margin: 0;
+  padding: 6px 0 12px 5px;
+  display: flex;
+  list-style-type: none;
+}

@@ -14,4 +14,12 @@
 @import url('./blocks/header/__yaplus/header__yaplus.css');
 @import url('./blocks/header/__button/header__button.css');
 @import url('./blocks/header/__yaplus-link/header__yaplus-link.css');
+@import url('./blocks/header/__yaplus-link/_hover/header__yaplus-link_hover.css');
 @import url('./blocks/header/__button-span/header__button-span.css');
+
+/* nav */
+
+@import url('./blocks/nav/__list/nav__list.css');
+@import url('./blocks/nav/__item/nav__item.css');
+@import url('./blocks/nav/__link/nav__link.css');
+@import url('./blocks/nav/__link/_hover/nav__link_hover.css');

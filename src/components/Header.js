@@ -19,7 +19,7 @@ export default function Header() {
           </div>
           <div className="header__yaplus">
             <a
-              className="header__yaplus-link"
+              className="header__yaplus-link header__yaplus-link_hover"
               href="https://plus.yandex.ru/?from=header_sport&utm_campaign=plus&utm_medium=header_sport&utm_source=yandex&source=header_sport&origin=sport_desktop_plus"
             >
               <img src={yaplus} alt="yaplus" />
@@ -44,63 +44,63 @@ export default function Header() {
         </div>
         <nav className="nav">
           <ul className="nav__list">
-            <li>
-              <NavLink className="nav__link" to="/">
+            <li className="nav__item">
+              <NavLink className="nav__link nav__link_hover" to="/">
                 Главное
               </NavLink>
             </li>
-            <li>
-              <NavLink className="nav__link" to="/match">
+            <li className="nav__item">
+              <NavLink className="nav__link nav__link_hover" to="/match">
                 Матч-центр
               </NavLink>
             </li>
-            <li>
-              <NavLink className="nav__link" to="/football">
+            <li className="nav__item">
+              <NavLink className="nav__link nav__link_hover" to="/football">
                 Футбол
               </NavLink>
             </li>
-            <li>
-              <NavLink className="nav__link" to="/hockey">
+            <li className="nav__item">
+              <NavLink className="nav__link nav__link_hover" to="/hockey">
                 Хоккей
               </NavLink>
             </li>
-            <li>
-              <NavLink className="nav__link" to="/skating">
+            <li className="nav__item">
+              <NavLink className="nav__link nav__link_hover" to="/skating">
                 Фигурное катание
               </NavLink>
             </li>
-            <li>
-              <NavLink className="nav__link" to="/biathlon">
+            <li className="nav__item">
+              <NavLink className="nav__link nav__link_hover" to="/biathlon">
                 Биатлон
               </NavLink>
             </li>
-            <li>
-              <NavLink className="nav__link" to="/fighting">
+            <li className="nav__item">
+              <NavLink className="nav__link nav__link_hover" to="/fighting">
                 Единоборства
               </NavLink>
             </li>
-            <li>
-              <NavLink className="nav__link" to="/basketball">
+            <li className="nav__item">
+              <NavLink className="nav__link nav__link_hover" to="/basketball">
                 Баскетбол
               </NavLink>
             </li>
-            <li>
-              <NavLink className="nav__link" to="/tennis">
+            <li className="nav__item">
+              <NavLink className="nav__link nav__link_hover" to="/tennis">
                 Теннис
               </NavLink>
             </li>
-            <li>
-              <NavLink className="nav__link" to="/autosport">
+            <li className="nav__item">
+              <NavLink className="nav__link nav__link_hover" to="/autosport">
                 Автоспорт
               </NavLink>
             </li>
-            <li>
-              <NavLink className="nav__link" to="/volleyball">
+            <li className="nav__item">
+              <NavLink className="nav__link nav__link_hover" to="/volleyball">
                 Волейбол
               </NavLink>
             </li>
-            <li>
-              <NavLink className="nav__link" to="/cybersport">
+            <li className="nav__item">
+              <NavLink className="nav__link nav__link_hover" to="/cybersport">
                 Киберспорт
               </NavLink>
             </li>

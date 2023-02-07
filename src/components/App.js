@@ -13,6 +13,7 @@ import Biathlon from "./nav-menu/Biathlon";
 import Basketball from "./nav-menu/Bascketball";
 import Tennis from "./nav-menu/Tennis";
 import Volleyball from "./nav-menu/Volleyball";
+import Aside from "./Aside";
 
 function App() {
   api.getCyberSportInfo().then((res) => {
@@ -37,6 +38,7 @@ function App() {
           <Route path="/volleyball" element={<Volleyball />}></Route>
           <Route path="/cybersport" element={<Cybersport />}></Route>
         </Routes>
+        <Aside />
       </div>
     </div>
   );
