@@ -1,0 +1,12 @@
+.header__button {
+  border: none;
+  border-radius: 5px;
+  background-color: #ffdc60;
+  padding: 8.5px 16px 9px;
+  display: flex;
+  align-items: center;
+}
+
+.header__button svg {
+  position: absolute;
+}
