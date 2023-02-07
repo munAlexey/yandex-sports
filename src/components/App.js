@@ -23,22 +23,24 @@ function App() {
   return (
     <div className="App">
       <div className="page">
-        <Header />
-        <Routes>
-          <Route path="/" element={<Main />}></Route>
-          <Route path="/match" element={<Match />}></Route>
-          <Route path="/football" element={<Football />}></Route>
-          <Route path="/hockey" element={<Hoсkey />}></Route>
-          <Route path="/skating" element={<Skating />}></Route>
-          <Route path="/biathlon" element={<Biathlon />}></Route>
-          <Route path="/fighting" element={<Fighting />}></Route>
-          <Route path="/basketball" element={<Basketball />}></Route>
-          <Route path="/tennis" element={<Tennis />}></Route>
-          <Route path="/autosport" element={<Autosport />}></Route>
-          <Route path="/volleyball" element={<Volleyball />}></Route>
-          <Route path="/cybersport" element={<Cybersport />}></Route>
-        </Routes>
-        <Aside />
+        <div className="container">
+          <Header />
+          <Routes>
+            <Route path="/" element={<Main />}></Route>
+            <Route path="/match" element={<Match />}></Route>
+            <Route path="/football" element={<Football />}></Route>
+            <Route path="/hockey" element={<Hoсkey />}></Route>
+            <Route path="/skating" element={<Skating />}></Route>
+            <Route path="/biathlon" element={<Biathlon />}></Route>
+            <Route path="/fighting" element={<Fighting />}></Route>
+            <Route path="/basketball" element={<Basketball />}></Route>
+            <Route path="/tennis" element={<Tennis />}></Route>
+            <Route path="/autosport" element={<Autosport />}></Route>
+            <Route path="/volleyball" element={<Volleyball />}></Route>
+            <Route path="/cybersport" element={<Cybersport />}></Route>
+          </Routes>
+          <Aside />
+        </div>
       </div>
     </div>
   );
