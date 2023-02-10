@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/yandex-sports/static/css/main.f06dfc24.css",
+    "main.js": "/yandex-sports/static/js/main.1914e54b.js",
+    "static/js/787.68f9b0c0.chunk.js": "/yandex-sports/static/js/787.68f9b0c0.chunk.js",
+    "static/media/Inter-Medium.woff": "/yandex-sports/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
+    "static/media/Inter-Black.woff": "/yandex-sports/static/media/Inter-Black.c6938660eec019fefd68.woff",
+    "static/media/Inter-Regular.woff": "/yandex-sports/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/Inter-Medium.woff2": "/yandex-sports/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
+    "static/media/Inter-Black.woff2": "/yandex-sports/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
+    "static/media/Inter-Regular.woff2": "/yandex-sports/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
+    "static/media/basketball.svg": "/yandex-sports/static/media/basketball.59071c59abfb1c24e1de9e2f7c15f8d7.svg",
+    "static/media/yandex-sport.svg": "/yandex-sports/static/media/yandex-sport.b11ef3ca686a2f23f804736e150d983a.svg",
+    "static/media/target.svg": "/yandex-sports/static/media/target.5ef1132250a64c3e348a9c3a752a4c64.svg",
+    "static/media/football.svg": "/yandex-sports/static/media/football.f23eeefcd3a820953398f937e631fffa.svg",
+    "static/media/ice-hockey.svg": "/yandex-sports/static/media/ice-hockey.e21ef2a1e915c96ad2bfbeca21caa7a1.svg",
+    "index.html": "/yandex-sports/index.html",
+    "static/media/plus.svg": "/yandex-sports/static/media/plus.99b361a2adc4603e36433ffe15ccb71d.svg",
+    "static/media/calendar.svg": "/yandex-sports/static/media/calendar.64c0dcf648354ee3a4fe0898186444ec.svg",
+    "static/media/yandex.svg": "/yandex-sports/static/media/yandex.68b675db46e804672630a8e2fd7e296c.svg",
+    "main.f06dfc24.css.map": "/yandex-sports/static/css/main.f06dfc24.css.map",
+    "main.1914e54b.js.map": "/yandex-sports/static/js/main.1914e54b.js.map",
+    "787.68f9b0c0.chunk.js.map": "/yandex-sports/static/js/787.68f9b0c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f06dfc24.css",
+    "static/js/main.1914e54b.js"
+  ]
+}
