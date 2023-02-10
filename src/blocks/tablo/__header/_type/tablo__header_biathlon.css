@@ -1,0 +1,8 @@
+.tablo__header_biathlon {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4858e9;
+  height: 74px;
+  margin: 8px 8px 0 0;
+  border-radius: 12px 12px 0 0;
+}

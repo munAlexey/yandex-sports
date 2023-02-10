@@ -1,0 +1,16 @@
+.ad__card {
+  border-radius: 12px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 368px;
+  margin-top: 8px;
+  padding: 17px 16px;
+  text-decoration: none;
+  position: sticky;
+}
+
+.ad__card:hover .ad__card-title {
+  color: #d00;
+}

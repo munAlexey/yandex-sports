@@ -1,0 +1,4 @@
+.main__block {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,11 @@
+.main__card-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #000000;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-height: 87px;
+}

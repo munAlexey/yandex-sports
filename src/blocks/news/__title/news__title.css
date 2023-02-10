@@ -1,0 +1,12 @@
+.news__title {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  overflow: hidden;
+  padding: 8px 16px 4px;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0;
+}

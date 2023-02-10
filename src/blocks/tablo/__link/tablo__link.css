@@ -1,0 +1,9 @@
+.tablo__link {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 5px;
+  font-size: 14px;
+  display: flex;
+  line-height: 16px;
+  align-items: center;
+}

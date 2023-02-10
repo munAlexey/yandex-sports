@@ -1,0 +1,5 @@
+.home__block {
+  display: flex;
+      position: absolute;
+    bottom: 8px;
+}

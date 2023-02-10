@@ -1,0 +1,8 @@
+.tablo__date {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  height: 52px;
+  padding: 0 20px 0 0 ;
+  align-items: center;
+}

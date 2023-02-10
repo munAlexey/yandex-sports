@@ -4,7 +4,9 @@ import logoSport from "../img/yandex-sport.svg";
 import yaplus from "../img/plus.svg";
 import { NavLink } from "react-router-dom";
 
-export default function Header() {
+export default function Header(props) {
+  const { state, onClick } = props;
+
   return (
     <header className="header">
       <div className="header__block">
@@ -32,8 +34,8 @@ export default function Header() {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M11.75 5.219c0 2.663-1.608 4.948-3.75 4.948-2.144 0-3.75-2.285-3.75-4.948C4.25 2.556 5.631 1 8 1c2.366 0 3.75 1.556 3.75 4.219zm-10.332 10.9c.32.381 1.702 1.548 6.581 1.548 4.88 0 6.26-1.167 6.582-1.548a.346.346 0 0 0 .076-.264c-.075-.735-.737-4.022-6.658-4.022-5.92 0-6.583 3.287-6.657 4.022-.01.097.013.19.076.264z"
                   fill="#000"
                 ></path>
@@ -45,7 +47,7 @@ export default function Header() {
         <nav className="nav">
           <ul className="nav__list">
             <li className="nav__item">
-              <NavLink className="nav__link nav__link_hover" to="/">
+              <NavLink onClick={onClick} className={`nav__link nav__link_hover ${ state ? 'nav__link_active' : ''}`} to="/">
                 Главное
               </NavLink>
             </li>

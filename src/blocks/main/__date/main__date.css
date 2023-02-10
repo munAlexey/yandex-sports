@@ -1,0 +1,6 @@
+.main__date {
+  display: flex;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}

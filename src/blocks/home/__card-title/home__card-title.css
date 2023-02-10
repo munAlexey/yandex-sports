@@ -1,0 +1,12 @@
+.home__card-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  width: 368px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: 0;
+}

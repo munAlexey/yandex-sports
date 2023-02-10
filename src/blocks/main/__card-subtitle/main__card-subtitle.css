@@ -1,0 +1,12 @@
+.main__card-subtitle {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: 0.0002em;
+  color: #222222;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  margin-top: 8px;
+}

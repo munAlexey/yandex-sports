@@ -5,13 +5,14 @@ body {
 
 .page {
   position: relative;
+  box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   background-color: #ECEEF2;
-  color: #FFFFFF;
+  color: #000000;
   min-height: 100vh;
   font-family: Helvetica Neue,Arial,sans-serif;
 }

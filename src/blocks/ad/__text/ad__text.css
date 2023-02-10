@@ -1,0 +1,16 @@
+.ad__text {
+  padding-top: 8px;
+  color: #959CAE;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.0002em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 150px;
+  align-self: flex-start;
+}
+
+.ad__text:hover {
+  color: #d00;
+}

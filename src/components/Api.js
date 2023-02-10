@@ -7,8 +7,8 @@ class Api {
     }
   }
 
-  async getCyberSportInfo() {
-    const response = await fetch('https://newsapi.org/v2/everything?q=sport&apiKey=d09dec3ef0e843b995d115f1e79b94ee', {
+  async getAsideInfo(search) {
+    const response = await fetch(`https://newsapi.org/v2/everything?q=${search}&apiKey=d09dec3ef0e843b995d115f1e79b94ee`, {
       method: "GET",
     });
     return this._checkResponse(response);

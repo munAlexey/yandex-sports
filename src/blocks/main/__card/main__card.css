@@ -1,0 +1,16 @@
+.main__card {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 210px;
+  background-color: #fff;
+  margin: 8px 0 0 8px;
+  border-radius: 12px;
+  position: relative;
+  padding-bottom: 4px;
+}
+
+.main__card:hover .main__card-title {
+  color: #d00;
+}

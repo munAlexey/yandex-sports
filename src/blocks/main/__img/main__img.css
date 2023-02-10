@@ -1,0 +1,7 @@
+.main__img {
+  width: 104px;
+  height: 116px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin: 16px 0 0 8px;
+}

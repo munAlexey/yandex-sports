@@ -1,0 +1,12 @@
+.home__card-subtitle {
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 8px;
+  max-height: 80px;
+  padding-bottom: 50px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
